@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:icon="@drawable/cart_icon"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/action_sellers_available"
+        android:title="@string/action_settings"
+        android:icon="@drawable/cart_icon"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+    <item android:id="@+id/logout_item"
+        android:title="logout"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+</menu>
